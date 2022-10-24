@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url(https://fondosmil.com/fondo/40985.jpg);
+  height: 100%;
+  width: 98%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-style: rgb(4, 247, 255);;
+  margin: 1rem;
+}
+
+header{
+  color: white;
+  border-bottom: solid;
+  border: 3px solid rgb(4, 247, 255);
+  box-shadow: 0 0 30px rgb(31, 129, 151);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header h1{
+  color: white;
+  margin-left: 25%;
+  font-style: italic;
+
+}
+
+#home{
+  color: white;
+  margin-left: 70%;
+  margin-top: -2%;
+  font-style: italic;
+  
+}
+
+#about{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin-left: 65%;
+  margin-top: -2%;
+}
+
+p{color: white;
+  font-size: 2.5rem;
+ display: flex;
+ justify-content: center;
+ padding-top: 30px;
+ font-style: italic;
+}
+input{
+  width: 32rem;
+  margin-left: 42rem;
+  margin-top: 3rem;
+  border: 3px solid rgb(4, 247, 255);
+  box-shadow: 0 0 30px rgb(31, 129, 151);
+  border-radius: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom:3%;
+} 
+
+#containerCard{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin-top: 2rem;
+  margin-left: 14%;
+  padding: 2rem; 
+  background: rgb(4, 247, 255);
+  height: 40rem;
+  width: 31rem;
+  border-radius: 20px;
+  box-shadow: 0px 1px 50px rgb(255, 0, 0);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 20px rgb(255, 0, 0);
+  transform: translateY(-3%);
+}
+
+.img{
+  height: 70%;
+  width: 100%;
+  border-radius: 20px;
+  border: 3px solid rgb(255, 0, 0);
+  box-shadow: 0 0 8px rgb(255, 0, 0);
+  margin-left: -1%;
+  margin-top: 1%;
+  flex-wrap: wrap;
+}
+
+.name{
+  font-size: 3rem;
+  font-size: 2.3rem;
+  color: #ffffff;
+  font-family: cursive;
+  text-shadow: 0 0 6px #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  color: rgb(255, 0, 0);
+}
+
+.id {
+  font-size: 1.5rem;
+  font-family: cursive;
+  margin: 6px;
+  color: #ffffff;
+  margin-left: 15rem;
+}
+
+.filtro{
+  display: none;
+}
